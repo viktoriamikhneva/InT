@@ -1,0 +1,311 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+body {
+  font: 16px/1.6 'Rubik'sans-serif;
+  font-weight: 300;
+  color: #465a64;
+  background-color: #fff;
+}
+
+.container { 
+  width: 1280px;
+  margin: 0 auto;
+}
+ 
+
+.header-holder {
+  background-color: #f5f8fb;
+  padding: 39px 84px 38px 81px;
+  border-bottom: 1px solid #e0e9f0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+a.call {
+  text-decoration: none;
+  color: #282b2f;
+}
+
+ 
+.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #fff;
+}
+
+.header {
+   border-bottom: 1px solid #e0e9f0;
+   align-content: center; 
+}
+
+.menu a {
+  color: #282b2f;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  align-items: center;
+}
+
+.menu li a:hover {
+  color: #8A8C89;
+}
+ 
+.menu li, .breadcrumbs li {
+  margin: 15px 0;
+}
+
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.breadcrumbs a{
+  text-decoration: none;
+  color:#282b2f;
+}
+
+.breadcrumbs li+li::before {
+  content: ">";
+  size: 5px 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.breadcrumbs a:hover{
+  color: #78909c;
+}
+
+
+.menu li a {
+  text-decoration: none;
+}
+
+.watch li::before {
+  content: "-";
+}
+
+.watch li {
+  color: #1976d2;
+  text-decoration: underline;
+  font-style: italic;
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+.article {
+  width: 841px;
+}
+
+.sidebar {
+  width: 380px;
+}
+
+.social-networks {
+  cursor: pointer;
+  list-style: none;
+  padding: 0;
+  margin: 0 26px;
+  display: flex;
+}
+
+
+.footer {
+  background-color: #fff;
+  border-top:1px solid #e0e9f0;
+  padding: 46px 80px; 
+}
+
+.sub,
+.social-networks {
+  align-self: center;
+}
+
+.social-networks a {
+  color: #546e7a;
+  text-decoration: none;
+}
+
+.social-networks li {
+  justify-content: flex-start;
+  margin-right: 30px;
+}
+
+.dribble:hover {
+  color: green;
+}
+
+.instagram:hover {
+  color: violet;
+}
+
+.facebook:hover {
+  color: blue;
+}
+
+.linkedin:hover {
+  color: black;
+}
+
+.btn:hover {
+  background-color: #006262;
+}
+
+
+.search-form {
+  position: relative;
+  margin-bottom:  35px;
+  }
+
+.search-form.btn-search:hover {
+  background-color: #004242;
+  }
+
+ .search-form .btn-search {
+    border: none;
+    background: url(../../img/search.png) no-repeat 50% 50%;
+    background-size: 20px 20px;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    top: 2px;
+    border-radius:4px;
+    font-size: 0;
+    padding:0;
+    cursor: pointer;
+  }
+
+
+.btn {
+  color: #fff;
+  background-color: #009688;
+  padding: 17px 81px;
+  margin-bottom: 150px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.search-form form-1 {
+  padding-right: 60px;
+}
+.form-1 {
+  width: 100%;
+  display: block;
+  border: solid 2px #e0e9f0;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+  font-family: inherit;
+}
+
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card a {
+  padding: 10px 0;
+  color: #009688;
+  text-decoration: underline;
+  margin: 20px 0;
+}
+
+.card a:hover {
+  color: #006262;
+}
+
+h1 {
+  size: 44px;
+
+}
+
+h2 {
+  size: 36px;
+}
+
+h3 {
+  size: 28px;
+}
+
+h4 {
+  size: 22px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #282b2f;
+  font-weight: 500;
+}
+
+main {
+  margin-bottom: 40px; 
+}
+
+.new {
+  background-color: #fff;
+  border: 2px solid #009688;
+  padding: 17px 71px;
+  border-radius: 5px;
+}
+
+.new a{
+  color: #009688;
+  text-decoration: none;
+}
+
+.article img,
+.card img  {
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.one {
+  border-bottom: 1px solid #e0e9f0;
+  padding-bottom: 20px;
+}
+
+.time{
+  color: #bdc6ca; 
+}
